@@ -1,0 +1,5 @@
+console.log(document.querySelector(".box"))
+console.log(document.querySelector(".box").innerHTML = "Hey Harry")
+console.log(document.querySelector(".container").outerHTML)
+console.log(document.querySelector(".container").hidden)
+console.log(document.querySelector(".container").hasAttribute("style"))
