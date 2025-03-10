@@ -1,0 +1,117 @@
+nav {
+    display: flex;
+    font-size:larger;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.cont ul {
+    display: flex;
+    gap: 34px;
+}
+
+.cont ul li {
+    list-style: none;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+}
+
+
+#must {
+    font-size: 4rem;
+}
+
+.first p {
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* .rt {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+} */
+.r {
+    width: 57vw;
+    margin: 12px auto;
+    font-size: 25px;
+}
+
+.rt2 {
+    display: flex;
+    justify-content: center;
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    width: 19rem;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px auto;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 20px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: #00d11f;
+    padding: 14px 16px;
+    color: white;
+    border: #00d11f;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    background: #00d11f;
+    padding: 14px 16px;
+    color: white;
+    border: #00d11f;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.salting {
+    font-size: small;
+    margin: 0 34px;
+}
+
+.container {
+    max-width: 50VW;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 42px;
+}
+
+.flex {
+    display: flex;
+}
+@media only screen and (max-width:1145px) {
+
+    .container{
+        grid-template-columns: 1fr;
+    }
+    
+}

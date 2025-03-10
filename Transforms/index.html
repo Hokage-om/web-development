@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transforms</title>
+    <style>
+        /* TRANSFORMS
+        1. ROTATE 
+        2. SCALE(change size)
+        3. SKEW (dono kono se khina)
+        4. TRANSLATE(to move)
+        5. ORIGIN*/
+        .box {
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            /* transform: rotate(.25turn); */
+            /* transform: rotateZ(290DEG); */
+            /* transform: scale(2); */
+            /* transform: skew(5deg); */
+            /* transform: translate(100%); */
+            /* applying more than one transforms >>>>*/
+            transform: rotate(34px) translateX(45%) translateY(100%) skew(23deg);
+            transform-origin: 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            height: 80vh;
+            width: 100vw;
+            border: 2px solid purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            box
+        </div>
+    </div>
+
+</body>
+
+</html>

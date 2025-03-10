@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors in CSS</title>
+    <style>
+        /* .box:first-child{
+            background-color: aqua;
+        } */
+        /* .box::first-line{
+            color: burlywood;
+        } */
+        .boxes *{
+            /* color: blue; */
+            border: 2px solid black;
+        }
+        p,a,.box,[data-color="primary"]{
+            margin-top: 45px;
+        }
+        .boxes::before{
+            content: "web development";
+        }
+        ::selection{
+            background-color: aqua;
+            color: rgb(153, 65, 65);
+        }
+        input::placeholder{
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a first box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <input type="text" placeholder="Type your name here:">
+    </div>
+</body>
+</html>
